@@ -1,14 +1,12 @@
-import './App.css'
+import React from 'react';
+import StockManagement from './components/StockManagement';
 
-// Import Components
-import StockMonitor from './components/StockMonitor'
+const App = () => {
+  return (
+    <div>
+      <StockManagement />
+    </div>
+  );
+};
 
-function App() {
-    return (
-    <>
-      <StockMonitor />
-    </>
-  )
-}
-
-export default App
+export default App;
